@@ -6,6 +6,21 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
+typedef struct 
+{
+    //código da cidade, nome, população, área, PIB, número de pontos turísticos
+
+    char pais;// vai de A até H
+    int cidade;// 4 cidade por país
+    char nome[50];
+    int populacao;
+    float area;
+    int pib;
+    int pontos_turisticos;
+} CartasSuperTrunfo ;
+
+CartasSuperTrunfo baralho[64];
+
 int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
